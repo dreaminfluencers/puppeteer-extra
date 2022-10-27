@@ -1,9 +1,19 @@
 {
-  "private": true,
-  "description": "Modular framework to teach Puppeteer new tricks.",
-  "repository": "berstend/puppeteer-extra",
-  "author": "berstend",
-  "license": "MIT",
+  "name": "@dreaminfluencers/puppeteer-extra",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/dreaminfluencers/dream-framework/issues"
+  },
+  "homepage": "https://gitlab.com/dreaminfluencers/dream-framework#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dreaminfluencers/puppeteer-extra.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "packages/puppeteer-extra/index.js",
   "engines": {
     "node": ">=8"
@@ -50,5 +60,5 @@
     "**/fsevents": "^2.1.2"
   },
   "dependencies": {},
-  "version": "0.0.0"
+  "version": "1.0.0"
 }

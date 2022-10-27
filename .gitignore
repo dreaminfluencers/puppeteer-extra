@@ -31,6 +31,7 @@ packages/puppeteer-extra-old/
 packages/test-*
 packages/internal-testing-*
 testing/
+.npmrc
 
 *.tgz*
 
